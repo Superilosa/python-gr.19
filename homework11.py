@@ -62,10 +62,10 @@ def create_database():
     return connection, cursor
 
 
-# connection, cursor = create_database()
-# day_info(URL1, connection, cursor, '-')
-# day_info(URL2, connection, cursor, ',')
-# day_info(URL3, connection, cursor, '-')
+connection, cursor = create_database()
+day_info(URL1, connection, cursor, '-')
+day_info(URL2, connection, cursor, ',')
+day_info(URL3, connection, cursor, '-')
 
 
 
